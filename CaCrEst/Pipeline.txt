@@ -1,0 +1,6 @@
+Bibliotecas:
+matplotlib
+pandas
+tkinter
+math
+openpyxl
