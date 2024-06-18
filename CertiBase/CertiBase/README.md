@@ -1,7 +1,7 @@
 # CertiBase
 
 The Python script-based software was developed to perform comparisons between cultivars from the database (references) and specific pecan trees (queries). The algorithm pairwise compares each query with the references and estimates the genetic similarity as
-<img src="[https://github.com/Yugaren/LFDGV/assets/137843836/635d1a41-9fda-4fa2-be18-75281b2cdc4c]" width="200" height="150">
+<img src="[file:///C:/Users/Samsung/Desktop/a.jpg]" width="200" height="150">
 ![image](https://github.com/Yugaren/LFDGV/assets/137843836/635d1a41-9fda-4fa2-be18-75281b2cdc4c)
 <br>based on the mean absolute percent error of alleles at each locus, where q and r are the allele sizes in base pairs for the query and reference, respectively. The 'max' function is used to constrain the estimates of S between 0.0 and 1.0, preventing negative estimates of S when the query is compared with genetically distant cultivars that exhibit relatively large differences in allele sizes. For example, if the query is a sample from the Barton cultivar, comparison with the Barton reference will return S values close to 1.0, as small differences in allele sizes are tolerated.
 
