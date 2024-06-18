@@ -40,10 +40,10 @@ sudo apt update
 sudo apt install python3
 ```
 
-```
+'
 Or download here: 
 [Python 3](https://www.python.org/downloads/)
-```
+`
 
 **2.2 - If you are using a virtual environment, activate the environment before running the file:**                                                                 
 
