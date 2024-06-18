@@ -1,5 +1,7 @@
 # CertiBase
 
+S=1/N ∑_(i=1)^N▒〖max⁡(0,1-|q-r|/r)〗
+
 The Python script-based software was developed to perform comparisons between cultivars from the database (references) and specific pecan trees (queries). The algorithm pairwise compares each query with the references and estimates the genetic similarity (S) based on the mean absolute percent error of alleles at each locus, where q and r are the allele sizes in base pairs for the query and reference, respectively. The 'max' function is used to constrain the estimates of S between 0.0 and 1.0, preventing negative estimates of S when the query is compared with genetically distant cultivars that exhibit relatively large differences in allele sizes. For example, if the query is a sample from the Barton cultivar, comparison with the Barton reference will return S values close to 1.0, as small differences in allele sizes are tolerated.
 
 ## How to Use
@@ -53,7 +55,7 @@ cd /path/to/the/directory/where/you/saved/the/repository/folder
 You can use **"ls"** in your terminal to display the files available in your directory as you use **"cd"** to enter the directory.
 
 ```sh
-sl
+ls
 ```
 
 **5 - Execute the Python file in the terminal:**
