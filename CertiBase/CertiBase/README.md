@@ -1,6 +1,6 @@
 # CertiBase
 
-O software baseado em script Python foi desenvolvido com o objetivo de realizar comparações entre as cultivares do banco de dados (referências) e árvores de pecã específicas (consulta). O algoritmo realiza a comparação par a par da consulta com as referências e estima a similaridade genética (S) com base no erro percentual absoluto médio dos alelos em cada locus, onde q e r são os tamanhos dos alelos, em pares de bases, da consulta e da referência, respectivamente. A função ‘max’ é usada para limitar as estimativas de S entre 0,0 e 1,0, evitando estimativas negativas de S quando a consulta é comparada com cultivares geneticamente distantes, apresentando diferenças relativamente grandes em pares de bases entre os alelos. Por exemplo, se a consulta for uma amostra da cultivar Barton, a comparação com a referência Barton retornará valores de S próximos a 1,0, já que pequenas diferenças nos tamanhos dos alelos são aceitas.
+The Python script-based software was developed to perform comparisons between cultivars from the database (references) and specific pecan trees (queries). The algorithm pairwise compares each query with the references and estimates the genetic similarity (S) based on the mean absolute percent error of alleles at each locus, where q and r are the allele sizes in base pairs for the query and reference, respectively. The 'max' function is used to constrain the estimates of S between 0.0 and 1.0, preventing negative estimates of S when the query is compared with genetically distant cultivars that exhibit relatively large differences in allele sizes. For example, if the query is a sample from the Barton cultivar, comparison with the Barton reference will return S values close to 1.0, as small differences in allele sizes are tolerated.
 
 ## Requirements
 
@@ -24,19 +24,28 @@ python3 CertiBase.py
 
 ## How to Use
 
-**1.1 - Em seu terminal, navegue até o diretório do arquivo .py, exemplo:**
-cd /caminho/para/o/diretorio
+**1 - Download the folder containing all files within this repository:**
+CertiBase.py
+.editorconfig
+Banco de Dados.xlsx
+README.md
+requirements.txt
 
-**1.2 - Execute o arquivo pyton:**
+**1.1 - In your terminal, navigate to the directory of the .py file, for example:**
+cd /path/to/the/directory/where/you/saved/the/repository/folder
+
+You can use "ls" in your terminal to display the files available in your directory as you use "cd" to enter the directory.
+
+**1.2 - Execute the Python file in the terminal:**
 python3 CertiBase.py
 
-**2.1 -Verifique se o Python está instalado no seu sistema**:
+**2.1 - If there is an error, check if Python is installed on your system:**
 python3 --version
 
-**2.2 - Caso não esteja instalado:**
+**2.2 - If it is not installed:**
 sudo apt update
 sudo apt install python3
 
-**3.1 - Se você estiver usando um ambiente virtual (virtual environment), ative o ambiente antes de executar o arquivo:**                                                                          source /caminho/para/o/venv/bin/activate
+**3.1 - If you are using a virtual environment, activate the environment before running the file:**                                                                          source /path/to/the/venv/bin/activate
 
-**3.2 -** E então execute o passo **1.2** novamente.
+**3.2 -** Execute step **1.2** again.
