@@ -6,8 +6,8 @@ The Python script-based software was developed to perform comparisons between cu
 
 **1 - Download the folder containing all files within this repository:**
 
--CertiBase.py
--.editorconfig
+-CertiBase.py-
+*.editorconfig
 -Banco de Dados.xlsx
 -README.md
 -requirements.txt
