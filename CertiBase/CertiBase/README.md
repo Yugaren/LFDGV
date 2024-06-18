@@ -6,11 +6,11 @@ The Python script-based software was developed to perform comparisons between cu
 
 **1 - Download the folder containing all files within this repository:**
 
--CertiBase.py-
-*.editorconfig
--Banco de Dados.xlsx
--README.md
--requirements.txt
+- CertiBase.py
+- .editorconfig
+- Banco de Dados.xlsx
+- README.md
+- requirements.txt
 
 
 **2 - Check if Python is installed on your system:**
@@ -29,7 +29,7 @@ sudo apt install python3
 ```
 
 Or download here: 
--[Python 3](https://www.python.org/downloads/)
+- [Python 3](https://www.python.org/downloads/)
 
 
 **2.2 - If you are using a virtual environment, activate the environment before running the file:**                                                                 
