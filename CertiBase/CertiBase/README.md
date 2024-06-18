@@ -18,7 +18,7 @@ python3 CertiBase.py
 
 **1 - Download the folder containing all files within this repository:**
 
-```sh
+```
 CertiBase.py
 .editorconfig
 Banco de Dados.xlsx
@@ -40,7 +40,7 @@ sudo apt update
 sudo apt install python3
 ```
 
-```sh
+```
 Or download here: 
 [Python 3](https://www.python.org/downloads/)
 ```
