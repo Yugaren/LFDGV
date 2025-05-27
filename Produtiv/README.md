@@ -21,3 +21,5 @@ Calculate Productivity-Weighted Score (PWS): For each species j, the productivit
 Species with high positive scores are considered potentially beneficial to garlic productivity, whereas negative scores suggest taxa associated with yield declines. This approach enables the identification of microbial indicators or drivers of productivity under real-world agricultural conditions.
 
 The tool outputs a ranked table of species with their corresponding PWS, classification of impact (high/medium/low positive or negative), and full metadata. It also generates a statistical summary highlighting the most impactful taxa and trends across farms.
+
+## How to Use
